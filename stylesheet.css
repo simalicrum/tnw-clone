@@ -28,7 +28,7 @@ nav {
   top: 0;
   background: #ffffff;
   grid-template-columns: 106px 1fr 48px 48px;
-  border-bottom: 1px solid #eeeeee;
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.15);
 }
 
 #logo {

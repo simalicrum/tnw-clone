@@ -1,0 +1,23 @@
+{
+  "name": "tnw-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js, !node_modules/**/*' --directory --port 7777 --browser \"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simalicrum/tnw-clone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simalicrum/tnw-clone/issues"
+  },
+  "homepage": "https://github.com/simalicrum/tnw-clone#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.13"
+  }
+}

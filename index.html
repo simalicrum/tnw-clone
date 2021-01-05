@@ -7,6 +7,27 @@
 <body>
   <nav>
     <a id="logo"><img alt="The Next Web" src="tnw.svg" /></a>
+    <ul id="top-nav">
+      <li>News</li>
+      <li>Events</li>
+      <li>Business</li>
+      <li>AMAs</li>
+      <li>Spaces</li>
+      <li>Terms & Conditions</li>
+    </ul>
+    <ul id="company-nav">
+      <li>About</li>
+      <li>Advertise</li>
+      <li>Jobs</li>
+      <li>Contact</li>
+    </ul>
+    <ul id="front-page-nav">
+      <li>Latest</li>
+      <li>Hard Fork</li>
+      <li>Plugged</li>
+      <li>ReadMe</li>
+      <li>Growth Quarters</li>
+    </ul>
     <div id="search"><i class="icon" id="search-icon"></i></div>
     <div id="menu">
       <a>
@@ -18,11 +39,25 @@
   </nav>
   <main>
     <section id="cover">
-      <article class="cover-story"></article>
+      <article class="cover-story"><div id="cover-logo"></div></article>
       <article class="cover-story"></article>
       <article class="cover-story"></article>
     </section>
-    <section id="latest"><h2>Latest news</h2></section>
+    <section id="latest">
+      <h2>Latest news</h2>
+      <div id="latest-news">
+        <div class="story">
+          <a class="story-image"></a>
+          <h4 class="story-title">
+            Watch: Boston Dynamics robots dance to convince us that they're
+            friendly
+          </h4>
+          <div class="story-byline">
+            <a>Thomas Macaulay</a> - <time>4 hours ago</time>
+          </div>
+        </div>
+      </div>
+    </section>
     <section id="deals"><h2>Latest funding rounds on Index.co</h2></section>
     <div id="sections">
       <section class="section"></section>
@@ -32,4 +67,5 @@
     </div>
   </main>
   <footer></footer>
+  <script src="script.js"></script>
 </body>
